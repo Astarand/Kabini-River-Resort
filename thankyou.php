@@ -186,7 +186,7 @@
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // reCAPTCHA v3 Verification
-        $recaptcha_secret = "6LexQwksAAAAAA9jMElvqRi16I0YOmKUDCdDvKYZ";
+        $recaptcha_secret = "SECRECT_KEY";
         $recaptcha_response = isset($_POST['g-recaptcha-response']) ? $_POST['g-recaptcha-response'] : '';
 
         // reCAPTCHA is REQUIRED - no token = no email
